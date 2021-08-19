@@ -1,0 +1,70 @@
+import React, { Component } from 'react'
+import './App.css'
+
+export default class App extends Component {
+    constructor(props){
+        super(props)
+        this.state = {
+            title: 'sardor',
+            count: 0,
+        };
+    }
+
+
+    render() {
+        
+
+
+        return (
+            <div className='body'>
+                <div>
+                <div className='navbar'>
+                    <h2 className='text01'>No</h2>
+                    <h2 className='text02'>Name</h2>
+                    <h2 className='text03'>Level</h2>
+                </div>
+                <div className='input'>
+                    <input className='name' type=" " />
+                    <input className='level' type=" " />
+                    <button className='save'>save</button>
+                </div>
+                <div className='qator0'>
+                    <input className='name' type=" " />
+                    <input className='level' type=" " />
+                    <button className='edit'>edit</button>
+                    <button className='delete'>delete</button>
+                    <button className='refresh'>refresh</button>
+                </div>
+                <div className='qator1'>
+                    <input className='name' type=" " />
+                    <input className='level' type=" " />
+                    <button className='edit'>edit</button>
+                    <button className='delete'>delete</button>
+                    <button className='refresh'>refresh</button>
+                </div>
+                <div className='qator2'>
+                    <input className='name' type=" " />
+                    <input className='level' type=" " />
+                    <button className='edit'>edit</button>
+                    <button className='delete'>delete</button>
+                    <button className='refresh'>refresh</button>
+                </div>
+                <div className='qator3'>
+                    <input className='name' type=" " />
+                    <input className='level' type=" " />
+                    <button className='edit'>edit</button>
+                    <button className='delete'>delete</button>
+                    <button className='refresh'>refresh</button>
+                </div>
+                <div className='qator4'>
+                    <input className='name' type=" " />
+                    <input className='level' type=" " />
+                    <button className='edit'>edit</button>
+                    <button className='delete'>delete</button>
+                    <button className='refresh'>refresh</button>
+                </div>
+            </div>
+        </div>
+        )
+    }
+}

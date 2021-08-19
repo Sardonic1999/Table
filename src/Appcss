@@ -1,0 +1,73 @@
+.navbar{
+  display: flex;
+  border: 1px solid black;
+  margin-top: 10px;
+  width: 1000px;
+}
+
+.text01{
+  padding: 5px 40px 5px 15px;
+  text-align: center;
+
+}
+
+.text02{
+  padding: 5px 80px 5px 100px;
+  text-align: center;
+}
+
+.text03{
+  padding: 5px 0px 5px 120px;
+}
+
+.input{
+  /* border: 1px solid blue; */
+  width: 1000px;
+}
+
+.name{
+  margin: 5px 70px 5px 120px;
+  width: 200px;
+  height: 30px;
+
+}
+
+.level{
+  margin: 5px 50px 5px 0px;
+  width: 200px; 
+  height: 30px;
+
+}
+
+.save{
+  width: 100px;
+  height: 30px;
+  background: greenyellow;
+  margin-right: 10px;
+}
+
+.edit{
+  width: 100px;
+  height: 30px;
+  background: rgb(255, 238, 0);
+  margin-right: 10px;
+}
+
+.delete{
+  width: 100px;
+  height: 30px;
+  background: red;
+  margin-right: 10px;
+
+}
+
+.refresh{
+  width: 100px;
+  height: 30px;
+  background: lightblue;
+}
+
+.body{
+  border: 1px solid black;
+  width: 1000px;
+}
